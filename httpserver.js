@@ -1,7 +1,7 @@
 const http = require('http'); // Loads the http module
 let fs = require('fs'); // Loads el modulo File Systen parar gestion de archivos en el fs
 let url = require('url'); //
-var datos = require('./mymodule1.js'); // Modulo de funciones y metodos propios
+var datos = require('./nelSoftModule.js'); // Modulo de funciones y metodos propios
 
 function parseCookies (request) {
   var list = {},
